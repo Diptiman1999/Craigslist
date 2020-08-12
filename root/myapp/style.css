@@ -1,0 +1,79 @@
+
+
+.container-fluid{
+   padding: 0;
+}
+
+.navbar
+{
+    padding: 1rem 4rem;
+}
+
+
+#section-promo
+{
+    text-align:center;
+    padding: 0px 60px;
+}
+
+.promo-title
+{
+	font-size: 1.5rem;
+}
+
+.promo-box
+{
+    padding:5%
+}
+h1
+{
+    padding: 3%;
+}
+
+.icon
+{
+    color:#dc3545;
+    margin-bottom: 1rem;
+    text-align:center;
+}
+
+.icon:hover
+{
+	color: #ff4c68;
+}
+.search-section-part
+{
+    padding:0 50px 0 50px;
+    text-align:left;
+}
+
+
+.form-control:focus {
+  border-color: #dc3545;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+
+.result-section-part
+{
+    margin:0px 60px;
+}
+
+
+
+
+/*Media Queries*/
+@media(max-width:991px)
+{
+	#section-nav .container-fluid
+	{
+		text-align:center; /*Here it is not change because it for specific type*/
+	}
+
+	#section-promo .promo-head
+	{
+	    font-size:3rem;
+	    padding-bottom:4rem;
+	}
+}
+
